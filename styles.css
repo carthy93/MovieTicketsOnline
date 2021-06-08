@@ -28,9 +28,19 @@ header {
 }
 
 .logo img {
-  height: 55px;
-  width: 55px;
+  height: 80px;
+  width: 60px;
   object-fit: cover;
+}
+
+.logo-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: cursive;
+}
+header h2 {
+  color: rgb(199, 38, 38);
 }
 
 header .menu {
