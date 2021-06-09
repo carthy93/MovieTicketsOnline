@@ -92,7 +92,7 @@ main {
 }
 
 #heading-sec h1 {
-  margin-left: 10rem;
+  text-align: center;
   width: 100%;
 }
 
@@ -187,6 +187,15 @@ footer p {
   margin: 20px 0;
   font-size: 1rem;
 }
-
-@media screen and (max-width: 800px) {
+.hide-mobile {
+    display: inherit !important;
+  }
+@media screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  footer {
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
 }
