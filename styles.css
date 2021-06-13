@@ -229,9 +229,6 @@ footer p {
     margin-right: 2rem;
   }
 
-  .menu li {
-  }
-
   #check:checked ~ .menu {
     display: none !important;
   }
